@@ -1,0 +1,16 @@
+InputFilePath,
+OutputFilePath,
+ParentFilePath,
+LOVFilePath,
+OutputFileType,.CSV
+OutputFileDelimiter,|
+OutputFileTextQualifier,""""
+OutputFileEscapeParameter,\
+OutputFileEncoding,
+NumberOfRowsToGenerate,1000
+GenerateNonComplaintRows,No
+GenerateParentFiles,No
+ReferenceFileType,.csv /.txt /.xlsx
+ReferenceFileDelimiter,|
+ReferenceFileTextQualifier,""""
+ReferenceFileEscapeParameter,\

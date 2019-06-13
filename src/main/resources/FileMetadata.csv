@@ -1,0 +1,7 @@
+S.No,FileName,ColumnName,PK?,Generate Dup Data?,NotNull?,Generate Null Rows?,DataType,Length,Decimal,Generate Rows Violating DT?,Format?,Generate Rows Violating Format?,FK?,ParentFileName,ParentColumnName,Generate Rows Violating FK?,LOV?,ReferFromFile,Generate Rows Vilating LOV,DefaultValue?,Generate Rows violating DV?,Is there a range?,MinRangeValue,MaxRangeValue,Generate Rows violating Range?
+1,Department,deptid,Yes,,,,int,,,,,,,,,,,,,,,Yes,1000,1020,
+2,Employee,empid,Yes,,,,int,,,,,,,,,,,,,,,Yes,2000,2020,
+3,Employee,Gender,,,,,string,,,,,,,,,,Yes,gender,,,,,,,
+4,Employee,joindate,,,,,date,,,,dd/MM/yyyy,,,,,,,,,,,Yes,10/10/2019,12/12/2019,
+5,Employee,deptid,,,,,int,,,,,,Yes,Department,deptid,,,,,,,,,,
+6,Employee,keyid,Yes,,,,int,,,,,,,,,,,,,,,Yes,100,120,
